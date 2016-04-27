@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ALOJAMIENTOS</title>
+		<link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+		<link rel="stylesheet" href="css/leaflet.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+	</head>
+	<body>
+		<div class="jumbotron">
+		  	<h1>Alojamientos en Madrid<small></small></h1>
+		</div>
+		<div id="pestanas">
+			<ul class="nav nav-tabs">
+			  	<li role="presentation" class="active"><a href="#principal">Principal</a></li>
+			  	<li role="presentation"><a href="#gestion">Gestion</a></li>
+			  	<li role="presentation"><a href="#about">About</a></li>
+			</ul>
+			<div id="principal">
+				<div id="container">
+					<div id="map"></div><br>
+					<button id="get" type="button" class="btn btn-default">
+						<span class="glyphicon glyphicon-collapse-down"></span> Ver Hoteles
+					</button>
+				</div>
+				<div id="list" style="display:none; height:200px; border:1px solid #000; overflow: scroll;"></div>	
+			</div>
+			<div id="gestion">
+				<h2>Pestaña de Gestion</h2>
+			</div>
+			<div id="about">
+				<h2>Pestaña con informacion sobre mi.</h2>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/leaflet.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/map.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+	</body>
+</html>

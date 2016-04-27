@@ -1,0 +1,16 @@
+body {
+	font-size: 12px;
+}
+
+.jumbotron > h1 {
+	text-align: center;
+}
+
+#map {
+	height:400px;
+	width:60%;
+}
+
+#pestanas {
+	width: 100%;
+}
